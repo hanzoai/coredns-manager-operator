@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="coredns-manager-operator" width="880"></p>
+
 **This project is no longer maintained. Open for adoption!**
 
 # Coredns-manager-operator
