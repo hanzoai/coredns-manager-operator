@@ -1,6 +1,6 @@
 module github.com/monkale.io/coredns-manager-operator
 
-go 1.20
+go 1.26.5
 
 require (
 	github.com/miekg/dns v1.1.59
