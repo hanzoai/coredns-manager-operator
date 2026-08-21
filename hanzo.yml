@@ -1,0 +1,17 @@
+# hanzoai/coredns-manager-operator — the kubebuilder operator, forked from
+# monkale.io.
+#
+# NO unit GATE, AND THAT IS THE HONEST READING. The one _test.go here is the
+# scaffold ginkgo suite, and it registers no specs: `Ran 0 of 0 Specs in 0.000
+# seconds`, so envtest never starts and the package reports ok in 16ms having
+# checked nothing. `go test ./...` would pass and would mean nothing. `go vet`
+# compiles that file along with everything else, which is the whole of what
+# there is to check until somebody writes a spec.
+#
+# No images: nothing in the fleet pins an image built from this repo — the
+# cluster's DNS is a plain CoreDNS Deployment, not managed by this operator.
+test:
+  - name: build
+    run: go build ./...
+  - name: vet
+    run: go vet ./...
