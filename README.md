@@ -1,6 +1,9 @@
 **This project is no longer maintained. Open for adoption!**
 
 # Coredns-manager-operator
+
+[![Open in Hanzo](https://hanzo.app/badges/open-in-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/coredns-manager-operator&ref=main&action=open) [![Edit with Hanzo](https://hanzo.app/badges/edit-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/coredns-manager-operator&ref=main&action=edit) [![Deploy with Hanzo](https://hanzo.app/badges/deploy-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/coredns-manager-operator&ref=main&action=deploy)
+
 The CoreDNS Manager Operator is designed for offline or home lab setups, eliminating the need for additional DNS software like dnsmasq or named and leveraging a GitOps approach for managing DNS configurations.
 
 In many on-premises environments, managing DNS records can be complex and often requires separate DNS servers. With the CoreDNS Manager Operator, you can handle internal DNS directly within your Kubernetes cluster, simplifying the process and reducing infrastructure needs. This operator integrates with Kubernetes, making it easy to manage DNS records efficiently using a GitOps workflow.
